@@ -3,7 +3,7 @@ import React from "react";
 
 interface ButtonProps {
   title: string;
-  styles?: string;
+  styles: string;
   onClick?: () => void;
   disabled?: boolean;
 }
